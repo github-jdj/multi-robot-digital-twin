@@ -1,0 +1,22 @@
+# colcon / ROS build outputs
+build/
+install/
+log/
+.repo.git/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Editor / OS files
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>mycar_sim_bringup</name>
+  <version>0.2.0</version>
+  <description>CMake bringup package for Gazebo, digital-twin base controller, RViz, and ROS_DOMAIN_ID setup.</description>
+  <maintainer email="baater@example.com">baater</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+  <exec_depend>wheeltec_robot_urdf</exec_depend>
+  <exec_depend>mycar_base_sim</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
